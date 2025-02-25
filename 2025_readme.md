@@ -37,7 +37,16 @@
             <sub>subscript slightly below</sub>
             <strong>'i'bold</strong>bold<b></b>
             <blockquote cite="https://en.wikipedia.../Eiffel_Tower">specifies a section that is quoted from another source</blockquote>
+            <p><cite>Lettre philosophique</cite> by: Voltaire</p> 
         </body>
     </html>
+```
+### CSS - Cascading style sheet
+```html
+    
+    1. Inline : style attribute inside HTML element
+    <h1 style="color: red;">Learn html css</h1>
+    2. Internal : <style> element inside <head> tag
+    3. External : <link> element to link an external css file
 
 ```
