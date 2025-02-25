@@ -41,12 +41,36 @@
         </body>
     </html>
 ```
-### CSS - Cascading style sheet
+### CSS - Cascading style sheet and html
 ```html
     
     1. Inline : style attribute inside HTML element
     <h1 style="color: red;">Learn html css</h1>
-    2. Internal : <style> element inside <head> tag
-    3. External : <link> element to link an external css file
 
+    2. Internal : <style> element inside <head> tag 
+    <head>
+        <style>
+            h2{color:cornflowerblue;}
+            h3{color: blueviolet;}
+        </style>
+    </head>
+    <body>
+        <h2>Test</h2>
+        <h3>Test</h3>
+    </body>
+
+    3. External : <link> element to link an external css file
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+```
+styles.css external file
+```css
+body{
+    background-color: brown;
+}
+p{
+    color: yellow;
+    background-color: black;
+}
 ```
