@@ -1,7 +1,22 @@
 body{
-    background-color: brown;
+    background-color:hsla(226, 78%, 56%, 0.3);
 }
 p{
     color: yellow;
-    background-color: black;
+    background-color: rgb(183, 46, 46);
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: rgb(242, 113, 15);
+}
+h4{
+    color: hsl(235, 100%, 60%);
+}
+h5{
+    color: #ba2e54;
+}
+h6{
+
 }

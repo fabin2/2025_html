@@ -1,16 +1,15 @@
-*hello world*<br>
-**Hello again**<br>
+HELLO WORLD<br>
+*ITALIC* 1*<br>
+**STRONG** 2*<br>
+***STRONG ITALIC*** 3*<br>
+`TEXTCOLOR` **`**<br>
+**```** CODE LANGUAGE<br>
+~~1000~~ 900 ~tilde <br>
+### ### HEADING 3
+## ## HEADING 2
+# # HEADING 1
 
-*blabla*<br>
-**blabla**<br>
-***blabla 3`*`***<br>
-`*`
-``*``
-```*```
-# A 
-## B 
-### C 
-<br>
+
 
 ```html    
     Hello world <!--comment single & multipleline  Merci Danke und Wunderbar--> HTML stands for hyper text markup language, Created by Tim Berners Lee in 1991, Html used for create web pages. 
@@ -72,5 +71,35 @@ body{
 p{
     color: yellow;
     background-color: black;
+}
+```
+HTML colors
+```html
+Color name = eg: red, tomoto, gold, pink
+RGB = red, green, blue values. eg : rgb(200, 100, 115)
+HEX = hexadecimal value. eg: #e30b6c
+HSL = hue, saturation, lightness values. eg: hsl(10, 90%, 65%)
+RGBA = rgb with alpha channel/transparancy value. eg: rgba(200, 100, 115, 0.4)
+HSLA = hsl with alpha channel/transparancy. eg: hsla(10, 90%, 65%, 0.5)
+```
+```CSS
+
+{
+    color: blueviolet;/*Colorname*/ 
+}
+{
+    color: rgb(242, 113, 15);/*RGB*/
+}
+{
+    color: #ff3369;/*HEX*/
+}
+{
+    color: hsl(235, 100%, 60%); /* HSL hue ° degree removed)*/ 
+}
+{
+    background-color: rgba(165, 42, 42, 0.1); /* RGBA 0.1 transparency percentage added*/
+}
+{
+    background-color: hsla(205, 98%, 50%, 0.3);/*HSLA 0.3 transparency*/
 }
 ```
