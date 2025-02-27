@@ -2,9 +2,40 @@ HELLO WORLD<br>
 *ITALIC* 1*<br>
 **STRONG** 2*<br>
 ***STRONG ITALIC*** 3*<br>
-`TEXTCOLOR` **`**<br>
-**```** CODE LANGUAGE<br>
-~~1000~~ 900 ~tilde <br>
+**`TEXTCOLOR`** **`** BACKTICK<br>
+**```** PROGRAMMING LANGUAGE<br>
+~~1000~~ 900 **~tilde** <br>
+
+[visit youtube](https://www.youtube.com/ "just right") **``[ alt text ]( url "hoover")``**<br>
+MDimage<br>
+![image](images/icon_markdown.png "mmm...") **``![ alt text ]( url "hoover")``**<br>
+
+html img tag<br>
+<img src="images/icon_markdown.png" alt="icon_markdown" width="50" height="50">
+<br>
+
+TABLES<br>
+TABLE | GOES | HERE
+| --- | --- | --- |
+| ONE | TWO | THREE |
+<br>
+
+QUOTE >
+> KEEP WORK HARDER  
+<br>
+- **- hyphen to bullet point**
+<br>
+
+<br>
+
+--- 
+<br>
+
+<br>
+
+***
+<br>
+
 ### ### HEADING 3
 ## ## HEADING 2
 # # HEADING 1
