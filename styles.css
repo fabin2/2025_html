@@ -17,3 +17,20 @@ h4{
 h5{
     color: #ba2e54;
 }
+
+table{
+    border: 1px solid red;
+    border-collapse: collapse;
+    background-color: rosybrown;
+}
+th,td{
+    text-align: center;
+    padding: 10px;
+}
+th{
+    background-color: seagreen;
+    color: white;
+}
+caption{
+    font-weight: bold;
+}

@@ -11,30 +11,18 @@ MDimage<br>
 ![image](images/icon_markdown.png "mmm...") **``![ alt text ]( url "hoover")``**<br>
 
 html img tag<br>
-<img src="images/icon_markdown.png" alt="icon_markdown" width="50" height="50">
-<br>
+<img src="images/icon_markdown.png" alt="icon_markdown" width="50" height="50"><br>
 
 TABLES<br>
 TABLE | GOES | HERE
 | --- | --- | --- |
-| ONE | TWO | THREE |
-<br>
-
+| ONE | TWO | THREE |<br>
 QUOTE >
-> KEEP WORK HARDER  
-<br>
-- **- hyphen to bullet point**
-<br>
+> KEEP WORK HARDER <br> 
 
-<br>
+- **- hyphen to bullet point**<br><br>
+Horizontal lines **`--- *** <hr>`**<br>
 
---- 
-<br>
-
-<br>
-
-***
-<br>
 
 ### ### HEADING 3
 ## ## HEADING 2
@@ -132,5 +120,127 @@ HSLA = hsl with alpha channel/transparancy. eg: hsla(10, 90%, 65%, 0.5)
 }
 {
     background-color: hsla(205, 98%, 50%, 0.3);/*HSLA 0.3 transparency*/
+}
+```
+## TABLES
+![image](images/table_image.png "tabels")
+
+```html
+<table style="width: 100%;" border="1";><!-- Table -->
+        <caption>TABLE</caption>
+        <tr>
+            <th>Seriel N</th>
+            <th>Item name</th>
+            <th>Unit</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Note book</td>
+            <td>Nos</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ball pen</td>
+            <td>Nos</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Pencils</td>
+            <td>Nos</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <table style="width: 100%;" border="1"><!-- Table COLSPAN -->
+        <caption>COLSPAN</caption>
+        <tr>
+            <th>Name</th>
+            <th colspan="3">Contact</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>1234567</td>
+            <td>4821541</td>
+            <td>5554214</td>
+        </tr>
+    </table>
+
+    <table style="width: 100%;" border="1"><!-- Table ROWSPAN -->
+        <caption>ROWSPAN</caption>
+        <tr>
+            <th>Name</th>
+            <td>John</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Contact</th>
+            <td>1234567</td>
+        </tr>
+        <tr>
+            <td>4821541</td>
+        </tr>
+        <tr>
+            <td>5554214</td>
+        </tr>
+    </table>
+
+    <table style="width: 100%;" border="1"><!-- Table ROWSPAN AND COLSPAN -->
+        <caption>ROWSPAN AND COLSPAN</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Class</th>
+                <th>School</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Mahima</td>
+                <td rowspan="2">Gupta</td>
+                <td>11</td>
+                <td rowspan="2">MVM School</td>
+            </tr>
+            <tr>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Sri</td>
+                <td rowspan="2">Krishn</td>
+                <td>3</td>
+                <td rowspan="2">LMS School</td>
+            </tr>
+            <tr>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Shivika</td>
+                <td rowspan="2">Goyal</td>
+                <td>5</td>
+                <td rowspan="2">SCPM School</td>
+            </tr>
+            <tr>
+                <td>A</td>
+            </tr>
+        </tbody>
+    </table>
+```
+CSS tabels
+```css
+table{
+    border: 1px solid red;
+    border-collapse: collapse;
+    background-color: rosybrown;
+}
+th,td{
+    text-align: center;
+    padding: 10px;
+}
+th{
+    background-color: seagreen;
+    color: white;
+}
+caption{
+    font-weight: bold;
 }
 ```
