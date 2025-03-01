@@ -267,9 +267,18 @@ body{
     background-attachment: fixed;
 }
 ```
-clickable img
+Clickable img & image Mapping
 ```html
-<a href="https://www.google.fr/" target="_blank" title="clickme">
+<a href="https://www.google.fr/" target="_blank" title="clickme"><!--clickable image-->
     <img src="/images/google.png" alt="google_image" width="150" height="200">
 </a>
+
+<!-- usemap #name <map name> <area shape= "rect,circle, poly, default" coords -->
+<img src="/images/social.png" alt="socialnetwork_sites" usemap="#social"><!--image map: pixel defined 200*200-->
+    <map name="social">
+        <area shape="rect" coords="0,0,100,100" href="https://www.google.fr/" target="_blank">
+        <area shape="rect" coords="100,0,200,100" href="https://www.facebook.com/" target="_blank">
+        <area shape="rect" coords="0,100,100,200" href="https://x.com/?lang=fr/" target="_blank">
+        <area shape="rect" coords="100,100,200,200" href="https://www.instagram.com/" target="_blank">
+    </map>
 ```
