@@ -244,3 +244,32 @@ caption{
     font-weight: bold;
 }
 ```
+## Links / Image
+```html css
+<a href="https://www.google.fr/" target="_blank" title="clickme">Google</a> <!--external link-->
+<a href="contact.html" target="_blank">Contact</a> <!--internal-->
+
+<img src="/images/dog.jpeg" alt="dog_image" width="200" height="200"> <!--internal imagie-->
+<img src="......site......" alt="cat_image" width="200" height="200"> <!--external-->
+```
+```css
+a:link{
+    text-decoration: none; /*removed underline link*/
+}
+a:hover{
+    color: red; /*hoover color link*/
+}
+
+body{
+    background-image: url('/images/cat.jpg');           /*background CSS single img*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+```
+clickable img
+```html
+<a href="https://www.google.fr/" target="_blank" title="clickme">
+    <img src="/images/google.png" alt="google_image" width="150" height="200">
+</a>
+```
