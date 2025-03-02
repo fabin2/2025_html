@@ -282,3 +282,40 @@ Clickable img & image Mapping
         <area shape="rect" coords="100,100,200,200" href="https://www.instagram.com/" target="_blank">
     </map>
 ```
+**DIV :** tag defines a division or a section in an HTML document, used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript, styled by using the class or id attribute, any sort of content can be put inside. By default, browsers always place a line break before and after.
+```html
+<div style="background-color: red; float: left; width: 33%;">
+        <span>HTML</span>
+        <p>Hypertext Markup Language HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content.</p>
+    </div>
+    <div style="background-color: green; float: left; width: 33%;">
+        <span>CSS</span>
+        <p>Cascading Style Sheets CSS is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML including XML dialects such as SVG, MathML or XHTML. </p>
+    </div>
+    <div style="background-color: blue; float: left; width: 33%;">
+        <span>JAVASCRIPT</span>
+        <p>JavaScript, often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS.</p>
+    </div>
+```
+**CLASSES, multiple class names** . class tag point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.
+```html
+<h3 class="vegetable organic">Carrot</h3> <!--multiple class names-->
+<h3 class="vegetable">Onion</h3>
+<h3 class="fruit">Orange</h3>
+<h3 class="fruit">Apple</h3>
+```
+```css
+.vegetable{
+    background-color: green;
+}
+.fruit{
+    background-color: blue;
+}
+.organic{               /* multiple class names*/
+    color: white;
+    text-align: center;
+}
+```
+
+
+
