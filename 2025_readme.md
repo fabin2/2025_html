@@ -379,7 +379,91 @@ Clickable img & image Mapping
 .li_classMenu:hover{
     background-color: blue;
 }
+```
+**Iframe** embeds another html document within the current one, a nested browsing context.
+```html
+<iframe src="https://www.google.com/maps/embed?" width="100%" height="250"></iframe> <!--google map embed-->
+<iframe src="contact.html" width="100%" height="250"></iframe>
+```
+**FORM** 
+```html
+<form >
+    <label for="username">User Name: </label>
+    <input type="text" name="username" id="username">
+    <label>Password</label>
+    <input type="password" name="password" id="password">
+    <input type="submit" value="Submit">
+</form>
+```
+```html
+<div style="background-color: grey;">
+    <form>
+        <h2>Registration Form</h2>
+        <label for="firstname">First Name: </label>
+        <input type="text" name="firstname" id="firstname"><br>
+        <label for="secondname">Second Name: </label>
+        <input type="text" name="secondname" id="secondname"><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email"><br>
+        <label for="pass">Password: </label>
+        <input type="password" name="pass" id="pass"><br>
+        
+        <div style="background-color: rgb(112, 112, 194);">
+            <h3>Gender</h3>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+        </div>
+        <div>
+            <h3>Hobbies</h3>
+            <input type="checkbox" name="game" id="football">
+            <label for="football">Football</label>
+            <input type="checkbox" name="game" id="rugby">
+            <label for="rugby">Rugby</label>
+            <input type="checkbox" name="game" id="tennis">
+            <label for="tennis">Tennis</label>
+        </div>
+        <div style="background-color: rgb(112, 112, 194);">
+            <h3>Regions</h3>
+            <label for="regions">Regions</label>
+            <select name="regions" id="regions"> 
+                <option value="grandest">Grand-Est</option>
+                <option value="iledefrance">Île-de-France</option>
+                <option value="auvergnerhonealpes">Auvergne Rhône-Alpes</option>
+            </select>
+        </div>
+        <div>
+            <h3>Adresse</h3>
+            <label for="adresse">Adresse</label><br>
+            <textarea name="adresse" id="adresse" cols="30" rows="4"></textarea>
+        </div>
+        <h3>Upload Photo</h3>
+        <label for="photo">Upload:</label>
+        <input type="file" name="photo" id="photo"><br><br>
 
+        <input type="button" value="Register">
+    </form>
+</div>
+<br>
+<h3>Button normal and image</h3>
+<button type="button" class="button">Sign Up</button>
+<br><br>
+
+<button type="button" class="button2">
+    <img src="/images/button_signup_image.png" alt="signup" width="100" height="40">
+</button>
+```
+```css
+.button{
+    background-color: red;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 20px;
+}
 ```
 
 
