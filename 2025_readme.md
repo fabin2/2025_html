@@ -282,7 +282,7 @@ Clickable img & image Mapping
         <area shape="rect" coords="100,100,200,200" href="https://www.instagram.com/" target="_blank">
     </map>
 ```
-**DIV :** tag defines a division or a section in an HTML document, used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript, styled by using the class or id attribute, any sort of content can be put inside. By default, browsers always place a line break before and after.
+**DIV :** The div tag defines a section, a container for HTML elements, styled with CSS/JavaScript. It creates line breaks by default.
 ```html
 <div style="background-color: red; float: left; width: 33%;">
         <span>HTML</span>
@@ -315,6 +315,71 @@ Clickable img & image Mapping
     color: white;
     text-align: center;
 }
+```
+**ID attribute** IDs uniquely identify one HTML element; classes apply to multiple. JavaScript uses IDs for specific element manipulation.IDs: case-sensitive, no leading numbers, no spaces.
+```html
+<h2>ID</h2>
+   <h3 id="veg1">Carrot</h3>
+    <h3 id="veg2">Onion</h3>
+    <h3 id="fruit1">Orange</h3>
+    <h3 id="fruit2">Apple</h3>
+```
+```css
+#veg1{
+    background-color: gray;
+}
+#fruit1{
+    background: blueviolet;
+}
+#veg2{
+    color: gray;
+}
+#fruit2{
+    color: blueviolet;
+}
+```
+**LIST unorderd ordered nested** A list item can contain a new list, and other HTML elements, like images and links, etc.
+```html
+<h3>Unordered</h3>
+    <ul style="list-style-type: disc;">
+        <li>Tomato</li>
+            <ul>
+                <li>Organic</li>
+            </ul>
+        <li>Carrot</li>
+    </ul>
+    <h3>Ordered</h3>
+    <ol start="10">
+        <li>Banana</li>
+        <li>Apple</li>
+    </ol>
+```
+**LIST ``MENU`` navigation**
+```html
+ <h2>Menu navigation list</h2>
+    <ul class="ul_classMenu">
+        <li class="li_classMenu">HOME</li>
+        <li class="li_classMenu">ABOUT</li>
+        <li class="li_classMenu">SERVICE</li>
+        <li class="li_classMenu">CONTACT</li>
+    </ul>
+```
+```css
+.ul_classMenu{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+}
+.li_classMenu{
+    float: left;
+    padding: 15px;
+}
+.li_classMenu:hover{
+    background-color: blue;
+}
+
 ```
 
 

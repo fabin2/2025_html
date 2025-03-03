@@ -1,3 +1,6 @@
+/*top side inline style if exists*/
+
+/*class*/
 .vegetable{
     background-color: green;
 }
@@ -7,4 +10,34 @@
 .organic{
     color: white;
     text-align: center;
+}
+
+/*id*/
+#veg1{
+    background-color: gray;
+}
+#fruit1{
+    background: blueviolet;
+}
+#veg2{
+    color: gray;
+}
+#fruit2{
+    color: blueviolet;
+}
+
+/*menu navigation*/
+.ul_classMenu{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+}
+.li_classMenu{
+    float: left;
+    padding: 15px;
+}
+.li_classMenu:hover{
+    background-color: blue;
 }
