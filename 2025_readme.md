@@ -465,6 +465,40 @@ Clickable img & image Mapping
     font-size: 20px;
 }
 ```
+**Video Adio**
+```html
+<video width="320" height="240" controls autoplay muted>
+    <source src="/video_audio/ Jackson - They Don’t Care About Us.mp4" type="video/mp4">
+</video>
+
+<!--youtube embed iframe-->
+
+<audio controls>
+    <source src="/video_audio/It's My Life - Bon Jovi.mp3">
+</audio>
+```
+**JScript in html**
+```html
+<script>
+    alert("Hell World");
+</script>
+
+<script src="/jshtml.js"></script> <!--js external file-->
+```
+```js
+alert("Hello world");
+```
+js function call onclick-event html button Hello world message pop up
+```html
+<p id="messageId"></p>
+<button type="button" onclick="message()">Click</button>
+```
+```js
+function message(){
+    document.getElementById("messageId").innerHTML = "Hello world";
+}
+```
+**Metadata** Meta data is information about information, Metadata is data (information) about data.
 
 
 
